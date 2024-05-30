@@ -11,14 +11,6 @@ export const Login = () => {
     setPassword(e.target.value);
   };
 
-  const handleSubmite = (e) => {
-    e.preventDefault();
-    if (email && password) {
-      alert("¡Usuario autenticado correctamente!");
-    } else {
-      alert("Por favor ingrese su email y contraseña.");
-    }
-  };
 
   return (
     <div className="wrapper">
